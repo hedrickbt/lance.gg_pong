@@ -7,6 +7,7 @@ export default class MyServerEngine extends ServerEngine {
 
     constructor(io, gameEngine, inputOptions) {
         super(io, gameEngine, inputOptions);
+        this.options.timeoutInterval = 300;
     }
 
     start() {
