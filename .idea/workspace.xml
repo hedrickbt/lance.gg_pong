@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7408564-fabb-4531-a3c8-5775c1069957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,41 +21,42 @@
     <session id="-993820322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="20" />
-          <entry key="js" value="134" />
+          <entry key="js" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="3" />
+          <entry key="ESLintLanguageService" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="20" />
-          <entry key="JavaScript" value="134" />
+          <entry key="JavaScript" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
-          <entry key="js" value="8" />
+          <entry key="js" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -103,17 +104,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="306">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#15#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+            <state relative-caret-position="74">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -125,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+            <state relative-caret-position="137">
+              <caret line="98" column="82" selection-start-line="98" selection-start-column="82" selection-end-line="98" selection-end-column="82" />
               <folding>
                 <element signature="e#15#57#0" expanded="true" />
               </folding>
@@ -141,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -149,17 +153,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
+            <state relative-caret-position="-107" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/ScoreBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="108">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#15#73#0" expanded="true" />
               </folding>
@@ -186,6 +188,11 @@
       <find>scheme</find>
       <find>queryobject</find>
       <find>draw</find>
+      <find>netsc</find>
+      <find>BaseTypes</find>
+      <find>console</find>
+      <find>disabled_timestamp</find>
+      <find>10000</find>
     </findStrings>
     <replaceStrings>
       <replace>width:</replace>
@@ -196,6 +203,7 @@
       <dir>C:\data\SpiderOak\projects\ParentChildClub\multiplayer_game\lance.gg_pong\project\sol-2-shoot</dir>
       <dir>D:\data\SpiderOak\projects\ParentChildClub\multiplayer_game\lance.gg_pong\project\sol-2-shoot\src\client</dir>
       <dir>D:\data\SpiderOak\projects\ParentChildClub\multiplayer_game\lance.gg_pong\project\sol-2-shoot</dir>
+      <dir>C:\data\SpiderOak\projects\ParentChildClub\multiplayer_game\lance.gg_pong\project\sol-2-shoot\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -205,12 +213,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/Ball.js" />
-        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" />
-        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" />
-        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" />
         <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/ScoreBox.js" />
         <option value="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js" />
         <option value="$PROJECT_DIR$/project/sol-2-shoot/index.html" />
+        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" />
+        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" />
+        <option value="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" />
       </list>
     </option>
   </component>
@@ -257,6 +265,11 @@
             <path>
               <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
               <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,37 +277,6 @@
               <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="sol-2-shoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="sol-2-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="sol-2-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="sol-2-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lance.gg_pong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lance.gg_pong" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="sol-2-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,29 +350,30 @@
       <workItem from="1537920026353" duration="11009000" />
       <workItem from="1537935516576" duration="99000" />
       <workItem from="1537935704523" duration="1462000" />
+      <workItem from="1537983549281" duration="4723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17086000" />
+    <option name="totallyTimeSpent" value="21809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27186313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2705957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49683145" weight="0.55720055" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49683145" weight="0.44279945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4898606" weight="0.55720055" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4898606" weight="0.44279945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031686" side_tool="true" visible="true" weight="0.55720055" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5101394" side_tool="true" visible="true" weight="0.55720055" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949457" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,20 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/node_modules/lance-gg/src/serialize/DynamicObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/node_modules/lance-gg/src/serialize/BaseTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/node_modules/lance-gg/src/GameEngine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -510,60 +479,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/ScoreBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#15#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/PlayerAvatar.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding>
-            <element signature="e#15#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="74">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/node_modules/lance-gg/src/serialize/DynamicObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/node_modules/lance-gg/src/serialize/BaseTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/ScoreBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="98" column="82" selection-start-line="98" selection-start-column="82" selection-end-line="98" selection-end-column="82" />
+          <folding>
+            <element signature="e#15#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

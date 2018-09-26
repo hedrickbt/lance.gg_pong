@@ -62,21 +62,32 @@ export default class MyGameEngine extends GameEngine {
         let instanceType = Paddle;
         let playerPaddle = this.world.queryObject({ playerId, instanceType });
         if (playerPaddle) {
-            if (inputData.input === 'up') {
-                playerPaddle.position.y -= 5;
-            } else if (inputData.input === 'down') {
-                playerPaddle.position.y += 5;
+            if (playerPaddle.disabled_timestamp != '') {
+                // console.log(Date.now() - parseInt(this.paddle1.disabled_timestamp));
+                if ((Date.now() - parseInt(playerPaddle.disabled_timestamp)) >= 5000) {
+                    playerPaddle.disabled_timestamp = '';
+                }
+            }
+
+            if (playerPaddle.disabled_timestamp === '') {
+                if (inputData.input === 'up') {
+                    playerPaddle.position.y -= 5;
+                } else if (inputData.input === 'down') {
+                    playerPaddle.position.y += 5;
+                }
             }
 
         }
         if (inputData.input === 'space') {
-            instanceType = Bullet;
-            let playerBullet = this.world.queryObject({ playerId, instanceType });
-            if (playerBullet) {
-                playerBullet.position.x = playerPaddle.position.x;
-                playerBullet.position.y = playerPaddle.position.y + (PADDLE_HEIGHT/2) - (BULLET_HEIGHT/2);
-                if (playerPaddle.playerId == 1) playerBullet.velocity.set(7, 0);
-                else playerBullet.velocity.set(-7, 0);
+            if (playerPaddle.disabled_timestamp === '') {
+                instanceType = Bullet;
+                let playerBullet = this.world.queryObject({ playerId, instanceType });
+                if (playerBullet) {
+                    playerBullet.position.x = playerPaddle.position.x;
+                    playerBullet.position.y = playerPaddle.position.y + (PADDLE_HEIGHT / 2) - (BULLET_HEIGHT / 2);
+                    if (playerPaddle.playerId == 1) playerBullet.velocity.set(7, 0);
+                    else playerBullet.velocity.set(-7, 0);
+                }
             }
         }
     }
@@ -117,7 +128,7 @@ export default class MyGameEngine extends GameEngine {
                 this.paddle2.position.y = 0;
             } else if ((this.paddle2.position.y + PADDLE_HEIGHT) > HEIGHT - 1) {
                 // paddle hits bottom
-                this.paddle2.position.y = HEIGHT - PADDLE_HEIGHT -1;
+                this.paddle2.position.y = HEIGHT - PADDLE_HEIGHT - 1;
             }
         }
     }
@@ -134,6 +145,7 @@ export default class MyGameEngine extends GameEngine {
                 this.bullet2.velocity.set(0, 0);
                 this.bullet2.position.x = -10;
                 this.bullet2.position.y = -10;
+                this.paddle1.disabled_timestamp = Date.now().toString();
                 console.log(`player 2 hit player 1`);
             } else if (this.bullet1.position.x <= 0 && this.bullet1.position.x > -10) {
                 // ball hit left wall
@@ -154,6 +166,7 @@ export default class MyGameEngine extends GameEngine {
                 this.bullet1.velocity.set(0, 0);
                 this.bullet1.position.x = -10;
                 this.bullet1.position.y = -10;
+                this.paddle2.disabled_timestamp = Date.now().toString();
                 console.log(`player 1 hit player 2`);
             } else if (this.bullet1.position.x >= WIDTH ) {
 
