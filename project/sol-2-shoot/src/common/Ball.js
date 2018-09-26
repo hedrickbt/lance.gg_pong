@@ -10,7 +10,7 @@ export default class Ball extends DynamicObject {
     constructor(gameEngine, options, props) {
         super(gameEngine, options, props);
         this.class = Ball;
-        this.velocity.set(8, 8);
+        this.velocity.set(2, 2);
     }
 
     onAddToWorld(gameEngine) {
