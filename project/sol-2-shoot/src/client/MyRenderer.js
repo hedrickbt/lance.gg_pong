@@ -16,11 +16,12 @@ export default class MyRenderer extends Renderer {
             if (this.sprites[objId].el) {
                 this.sprites[objId].el.style.top = this.gameEngine.world.objects[objId].position.y + 'px';
                 this.sprites[objId].el.style.left = this.gameEngine.world.objects[objId].position.x + 'px';
+
+                if ((this.sprites[objId].el.className == 'scorebox1') || (this.sprites[objId].el.className == 'scorebox2')) {
+                    this.sprites[objId].el.innerText = this.gameEngine.world.objects[objId].score.toString();
+                }
             }
         }
-
-        // this.sprites['scorebox1'].el.innerText = this.gameEngine.world.queryObject({ playerId: 1, instanceType: 'ScoreBox' }).score.toString();
-        // this.sprites['scorebox2'].el.innerText = this.gameEngine.world.queryObject({ playerId: 2, instanaceType: 'ScoreBox' }).score.toString();
     }
 
     addSprite(obj, objName) {

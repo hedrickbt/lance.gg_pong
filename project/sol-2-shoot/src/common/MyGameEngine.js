@@ -117,7 +117,7 @@ export default class MyGameEngine extends GameEngine {
                 this.paddle2.position.y = 0;
             } else if ((this.paddle2.position.y + PADDLE_HEIGHT) > HEIGHT - 1) {
                 // paddle hits bottom
-                this.paddle2.position.y = HEIGHT - PADDLE_HEIGHT -1 ;
+                this.paddle2.position.y = HEIGHT - PADDLE_HEIGHT -1;
             }
         }
     }
