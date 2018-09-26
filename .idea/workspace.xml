@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7408564-fabb-4531-a3c8-5775c1069957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyClientEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyClientEngine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/common/MyGameEngine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/common/Paddle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/sol-2-shoot/src/server/MyServerEngine.js" afterDir="false" />
-    </list>
+    <list default="true" id="e7408564-fabb-4531-a3c8-5775c1069957" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -62,7 +52,7 @@
     <session id="-1510013347">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -141,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -423,16 +413,15 @@
       <updated>1537840096837</updated>
       <workItem from="1537840101767" duration="3948000" />
       <workItem from="1537919441861" duration="568000" />
-      <workItem from="1537920026353" duration="10440000" />
+      <workItem from="1537920026353" duration="11009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14956000" />
+    <option name="totallyTimeSpent" value="15525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1550" height="1695" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27164572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +429,7 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.32949457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32949457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32949457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3256558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/sol-2-shoot/src/client/MyRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
