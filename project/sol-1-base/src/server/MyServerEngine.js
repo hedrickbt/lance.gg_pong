@@ -1,7 +1,6 @@
 'use strict';
 
 import ServerEngine from 'lance/ServerEngine';
-import PlayerAvatar from '../common/PlayerAvatar';
 
 export default class MyServerEngine extends ServerEngine {
 

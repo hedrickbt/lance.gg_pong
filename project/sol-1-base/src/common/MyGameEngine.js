@@ -2,7 +2,6 @@
 
 import GameEngine from 'lance/GameEngine';
 import SimplePhysicsEngine from 'lance/physics/SimplePhysicsEngine';
-import PlayerAvatar from './PlayerAvatar';
 import TwoVector from 'lance/serialize/TwoVector';
 import Paddle from './Paddle';
 import Ball from './Ball';

@@ -82,10 +82,7 @@ export default class MyGameEngine extends GameEngine {
                 instanceType = Bullet;
                 let playerBullet = this.world.queryObject({ playerId, instanceType });
                 if (playerBullet) {
-                    // playerBullet.position.x = playerPaddle.position.x;
-                    // playerBullet.position.y = playerPaddle.position.y + (PADDLE_HEIGHT / 2) - (BULLET_HEIGHT / 2);
-                    // if (playerPaddle.playerId == 1) playerBullet.velocity.set(7, 0);
-                    // else playerBullet.velocity.set(-7, 0);
+		    // This prevents more than 1 active bullet per player
                 } else {
                     playerBullet = this.makeBullet(playerPaddle);
                 }
