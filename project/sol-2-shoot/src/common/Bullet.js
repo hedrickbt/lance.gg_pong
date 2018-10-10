@@ -4,8 +4,12 @@ import DynamicObject from 'lance/serialize/DynamicObject';
 
 export default class Bullet extends DynamicObject {
 
-    get bendingMultiple() { return 0.8; }
-    get bendingVelocityMultiple() { return 0; }
+    get bendingMultiple() {
+        return 0.8;
+    }
+    get bendingVelocityMultiple() {
+        return 0;
+    }
 
     constructor(gameEngine, options, props) {
         super(gameEngine, options, props);

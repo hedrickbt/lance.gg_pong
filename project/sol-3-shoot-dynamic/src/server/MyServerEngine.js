@@ -27,12 +27,10 @@ export default class MyServerEngine extends ServerEngine {
         if (this.players.player1 === null) {
             this.players.player1 = socket.id;
             this.gameEngine.paddle1.playerId = socket.playerId;
-            this.gameEngine.bullet1.playerId = socket.playerId;
             this.gameEngine.scorebox1.playerId = socket.playerId;
         } else if (this.players.player2 === null) {
             this.players.player2 = socket.id;
             this.gameEngine.paddle2.playerId = socket.playerId;
-            this.gameEngine.bullet2.playerId = socket.playerId;
             this.gameEngine.scorebox2.playerId = socket.playerId;
         }
     }
