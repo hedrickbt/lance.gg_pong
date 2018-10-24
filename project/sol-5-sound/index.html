@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Another awesome Lance multiplayer network game</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="dist/bundle.js" type="text/javascript"></script>
+    </head>
+    <body>
+		<div style="position:absolute; width: 600px; height: 200px; background: black; top:0px; left:0px;"class="gameboard">
+            <div style="position:relative; width: 400px; height: 20px; background:black;" class="scoreboard">
+                <div style="position:relative; width: 180px; height: 20px; background: black; float: left" >
+                    <p style="text-align: right; color: white;" class="scorebox1">Score 1</p>
+                </div>
+                <div style="position:relative; width: 40px; height: 20px; background: black; float: left" class="scorespace">
+                </div>
+                <div style="position:relative; width: 180px; height: 20px; background: black; float: right" >
+                    <p style="text-align: left; color: white;" class="scorebox2">Score 2</p>
+                </div>
+            </div>
+			<div style="position:absolute; width: 10px; height: 50px; background-color: white;" class="paddle1"></div>
+			<div style="position:absolute; width: 10px; height: 50px; background-color: white;" class="paddle2"></div>
+<!--
+            <div style="position:absolute; width: 10px; height: 10px; background: aqua;" class="bullet1"></div>
+            <div style="position:absolute; width: 10px; height: 10px; background: aqua;" class="bullet2"></div>
+-->
+			<div style="position:absolute; width: 5px; height: 5px; background: white" class="ball"></div>
+		</div>
+    </body>
+</html>
